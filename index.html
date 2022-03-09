@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis gatos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Oyarzun Cristian</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contactanos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Quienes somos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Pepon</a></li>
+                  <li><a class="dropdown-item" href="#">Kiara</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Su familia</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/kiara durmiendo.jpg" class="d-block w-100" alt="">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="h2">Kiara</h5>
+              <p class="h5">Durmiendo en su manta ❤</p>
+              <button type="button" class="btn btn-secondary">Mas fotos</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/pepon durmiendo.jpg" class="d-block w-100" alt="">
+            <div class="carousel-caption d-none d-md-block">
+                <h5 class="h2">Pepon</h5>
+                <p class="h5">Durmiendo en la silla ❤</p>
+                <button type="button" class="btn btn-secondary">Mas fotos</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/pepon y kiara durmiendo.jpg" class="d-block w-100" alt="">
+            <div class="carousel-caption d-none d-md-block">
+                <h5 class="h2">Kiara y Pepon</h5>
+                <p class="h5">Acostaditos ❤</p>
+                <button type="button" class="btn btn-secondary">Mas fotos</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="./images/Pepon mochilero.jpg" class="card-img-top rounded-circle mx-auto" alt="">
+            <div class="card-body text-center">
+              <h5 class="card-title">Pepon mochilero</h5>
+              <p class="card-text">Su primera expedición</p>
+              <button type="button" class="btn btn-secondary">Ver detalles >></button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./images/kiara durmiendo caja.jpg" class="card-img-top rounded-circle mx-auto" alt="">
+            <div class="card-body text-center">
+              <h5 class="card-title">La bella durmiente</h5>
+              <p class="card-text">Descansando en su caja</p>
+              <button type="button" class="btn btn-secondary">Ver detalles >></button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./images/veterinario.jpg" class="card-img-top rounded-circle mx-auto" alt="">
+            <div class="card-body text-center">
+              <h5 class="card-title">De "paseo"</h5>
+              <p class="card-text">Yendo al veterinario</p>
+              <button type="button" class="btn btn-secondary">Ver detalles >></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mt-4 border-top border-dark">
+        <div class="row g-0 align-items-center">
+            <div class="col-md-6">
+                <div class="card-body text-center">
+                  <h5 class="card-title fs-1">Acostados</h5>
+                  <p class="card-text f-3 pb-5">Luego de una jornada agotadora, estos bellos gatos se toman un descanso en su manta</p>
+                </div>
+              </div>
+            <div class="col-md-6">
+            <img src="./images/lindos.jpg" class="p-4 border border-4" id="otra" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="card mt-4">
+        <div class="row g-0 align-items-center">
+            <div class="col-md-6 order-2 order-md-1">
+            <img src="./images/Kiara sacando la lengua.jpg" class="p-4 border border-4" id="otra" alt="">
+          </div>
+          <div class="col-md-6 order-1 order-md-2">
+            <div class="card-body text-center">
+              <h5 class="card-title fs-1">Sacando la lengua</h5>
+              <p class="card-text f-3 pb-5">Kiara saca su lenguita cada vez que esta con ganas de ser acariciada</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mt-4">
+        <div class="row g-0 align-items-center">
+            <div class="col-md-6">
+                <div class="card-body text-center">
+                  <h5 class="card-title fs-1">Jugando a las escondidas</h5>
+                  <p class="card-text f-3 pb-5">Pepon se "esconde" y piensa que no lo vemos</p>
+                </div>
+              </div>
+            <div class="col-md-6">
+            <img src="./images/Pepon jugando a las escondidas.jpg" class="p-4 border border-4" id="otra" alt="">
+          </div>
+        </div>
+      </div>
+
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <p class="text-white"><i class="fa-solid fa-copyright"></i> 2021 Company, Inc</p>
+          <p class="text-white"><i class="fa-brands fa-facebook m-2"></i><i class="fa-brands fa-instagram m-2"></i><i class="fa-brands fa-twitter m-2"></i></p>
+        </div>
+      </nav>
+
+      <script src="https://kit.fontawesome.com/32cdc63259.js" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+</body>
+</html>
